@@ -28,8 +28,7 @@ const firebaseConfig = {
 };
 
 const ALLOWED_EMAILS = [
-  'alice@example.com',
-  'bob@example.com',
+  'mokushun@gmail.com',
 ];
 
 const app = initializeApp(firebaseConfig);

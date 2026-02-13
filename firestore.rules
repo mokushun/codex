@@ -7,13 +7,12 @@ service cloud.firestore {
 
     function allowedEmail() {
       return request.auth.token.email in [
-        'alice@example.com',
-        'bob@example.com'
+        'mokushun@gmail.com'
       ];
     }
-
     match /messages/{messageId} {
-      allow read, write: if signedIn()
+      allow read: if signedIn() && allowedEmail();
+      allow write: if signedIn()
         && allowedEmail()
         && request.resource.data.text is string
         && request.resource.data.text.size() > 0
