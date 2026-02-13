@@ -18,10 +18,13 @@ import {
 } from 'https://www.gstatic.com/firebasejs/10.12.4/firebase-firestore.js';
 
 const firebaseConfig = {
-  apiKey: 'REPLACE_ME',
-  authDomain: 'REPLACE_ME.firebaseapp.com',
-  projectId: 'REPLACE_ME',
-  appId: 'REPLACE_ME',
+  apiKey: "AIzaSyCmhhjPyupxIIRNxwY3DHx7nYarwc-STK4",
+  authDomain: "freechat-6b10c.firebaseapp.com",
+  projectId: "freechat-6b10c",
+  storageBucket: "freechat-6b10c.firebasestorage.app",
+  messagingSenderId: "178243061918",
+  appId: "1:178243061918:web:64e1fa9b645d63a9e1138f",
+  measurementId: "G-B7Q3GNP3B7"
 };
 
 const ALLOWED_EMAILS = [
